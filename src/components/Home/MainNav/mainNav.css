@@ -1,176 +1,153 @@
-.Dropdown-control{
-    border: none;
-    padding-left: 2px;
-    /* outline: none; */
+.Dropdown-control {
+  border: none;
+  padding-left: 2px;
 }
 
-.Dropdown-arrow{
-    margin-right: 25px;
-    margin-top: 3px;
+.Dropdown-arrow {
+  margin-right: 25px;
+  margin-top: 3px;
 }
 
-.Dropdown-placeholder{
-    margin-top: -3px;
-    font-family: Inter;
-    /* font-weight: 600; */
-    /* font-size: 23px; */
+.Dropdown-placeholder {
+  margin-top: -3px;
+  font-family: Inter;
 }
 
-.dropdownDiv{
-    align-items: center;
+.dropdownDiv {
+  align-items: center;
 }
 
-.container-fluid{
-    text-align: center;
-    align-items: center;
-    height: 60px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.container-fluid {
+  text-align: center;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.img{
-    background-color: #D9D9D9;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+.img {
+  background-color: #d9d9d9;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 
-.icon{
-    font-size: 25px;
-    color: #000000;
-    /* height: 60px; */
+.icon {
+  font-size: 25px;
+  color: #000000;
 }
 
-/*  */
+/* second section of main nav */
 
-.searchDiv{
-    display: flex;
-    justify-content: space-between;
-    /* background-color: red; */
+.searchDiv {
+  display: flex;
+  justify-content: space-between;
 }
-.text{
-font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-}
-
-.btns{
-    align-items: center;
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
 }
 
-.btns button{
-    margin-right: 20px;
-    border-radius: 10px;
-    background-color: rgba(219, 21, 22, 1);
-    color: white;
-    border: none;
-    padding-right: 5px; 
-    height: 35px;
-    /* width: auto; */
+.btns {
+  align-items: center;
 }
 
-
-.sort{
-    width: 100px;
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 17px;
+.btns button {
+  margin-right: 20px;
+  border-radius: 10px;
+  background-color: rgba(219, 21, 22, 1);
+  color: white;
+  border: none;
+  padding-right: 5px;
+  height: 35px;
 }
 
-.plus{
-    width: 40px;
-    color: white;
-
+.sort {
+  width: 100px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
 }
 
-.plus svg{
+.plus {
+  width: 40px;
+  color: white;
+}
+
+.plus svg {
   margin-top: -5px;
 }
 
-.filter{
-    width: 40px;
+.filter {
+  width: 40px;
 }
 
-.filter svg{
-    margin-top: -5px;
+.filter svg {
+  margin-top: -5px;
 }
 
-.input{
-    width: 100%;
-    height: 35px;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    outline: none;
-    padding-left: 40px;
-    color: rgba(0, 0, 0, 1);
-    font-family: Inter;
-
+.input {
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+  padding-left: 40px;
+  color: rgba(0, 0, 0, 1);
+  font-family: Inter;
 }
 
-.midSearch{
+.midSearch {
   width: 23%;
   align-items: center;
 }
 
-.searc-icon{
-    position: relative;
-    left: 25px;
-    /* top: 9px; */
-    font-size: 20px;
+.searc-icon {
+  position: relative;
+  left: 25px;
+  font-size: 20px;
 }
 
 /* media query */
 
-@media screen and (max-width: 1030px){
-    /* .searchDiv{
-       margin-left: 20px;
-    } */
-
-    /* .midSearch{
-        width: 35%;
-    } */
-}
-@media screen and (max-width: 770px){
-
-    .searchDiv{
-        /* background-color: red; */
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .btns button{
-        margin-right: 10px;
-      
-    }
+/* @media screen and (max-width: 1030px){
     
-    .midSearch{
-        width: 35%;
-        align-items: center;
-      }
+} */
 
+@media screen and (max-width: 770px) {
+  .searchDiv {
+    display: flex;
+    justify-content: space-around;
+  }
 
+  .btns button {
+    margin-right: 10px;
+  }
 
+  .midSearch {
+    width: 35%;
+    align-items: center;
+  }
 }
 
+@media screen and (max-width: 430px) {
+  .searchDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
 
-
-@media screen and (max-width: 430px){
-    .searchDiv{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: -10px;
-    }
-
-    .midSearch{
-        margin-bottom: 14px;
-        width: 55%;
-        margin-right: 20px;
-    }
+  .midSearch {
+    margin-bottom: 14px;
+    width: 55%;
+    margin-right: 20px;
+  }
 }
 
-@media screen and (max-width: 380px){
-    .btns{
-        font-size: small;
-    }
+@media screen and (max-width: 380px) {
+  .btns {
+    font-size: small;
+  }
 }

@@ -9,17 +9,17 @@ const Home = () => {
     <>
       <div className="d-flex">
         <SideNav />
-       <div>
-       <MainNav />
-        <div className="d-flex flex-wrap homeMain">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+        <div>
+          <MainNav />
+          <div className="d-flex flex-wrap homeMain">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
         </div>
-       </div>
       </div>
     </>
   );
