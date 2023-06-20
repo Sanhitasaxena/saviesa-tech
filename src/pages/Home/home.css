@@ -1,0 +1,11 @@
+.homeMain{
+    background-color:rgba(245, 245, 245, 1);
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* media queries */
+@media screen and (max-width: 770px){
+
+
+}

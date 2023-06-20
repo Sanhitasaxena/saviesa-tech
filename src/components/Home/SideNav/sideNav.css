@@ -1,0 +1,41 @@
+.nav{
+    width: 18%;
+    /* padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+
+.ul{
+    list-style: none;
+    /* margin-left: 10px; */
+    position: relative;
+    left: 8px;
+    top: -35px;
+}
+
+.li{
+    margin-bottom: 15px;
+}
+
+.logo{
+    /* margin-left: 18px;
+    margin-top: -50px; */
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+@media screen and (max-width: 770px){
+    .ul{
+        position: relative;
+         top: -13.8em;
+    }
+}
+@media screen and (max-width: 430px){
+    .nav{
+        visibility: hidden;
+        width: 0px;
+    }
+}
